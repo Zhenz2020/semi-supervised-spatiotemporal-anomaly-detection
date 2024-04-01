@@ -4,7 +4,7 @@ import pandas as pd
 from outlier_dbscan import abnormal_det_out_db
 import utils.pre_stdbscan as pst
 from sklearn.ensemble import IsolationForest
-#不包含重采样的数据生成
+
 
 df_20_test = pd.read_csv('data/train/data_0.csv') #/kaggle/input/anomaly-detection-falling-people-events
 df_21_test = pd.read_csv('data/train/data_1.csv')
