@@ -4,7 +4,6 @@ import pandas as pd
 from outlier_dbscan import abnormal_det_out_db
 import utils.pre_stdbscan as pst
 from sklearn.ensemble import IsolationForest
-#不包含重采样的数据生成
 
 # fileHandle = open('data/Dist_backgroud.txt', 'rb')
 fileHandle = open('data/Dist_backgroud_0324.txt', 'rb')
