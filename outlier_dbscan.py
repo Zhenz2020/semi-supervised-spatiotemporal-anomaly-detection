@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Mar 29 20:07:46 2023
 
-@author: ZhouZhen
-"""
 import numpy as np
 import pickle
 from jenkspy import jenks_breaks
