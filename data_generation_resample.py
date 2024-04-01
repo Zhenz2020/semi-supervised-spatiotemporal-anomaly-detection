@@ -6,7 +6,6 @@ import utils.pre_stdbscan as pst
 import random
 from sklearn.ensemble import IsolationForest
 
-# 包含重采样的数据生成
 
 fileHandle = open('data/Dist_backgroud.txt', 'rb')
 dist_background = pickle.load(fileHandle)
